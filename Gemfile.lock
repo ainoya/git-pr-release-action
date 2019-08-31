@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/ainoya/git-pr-release
-  revision: 8583c7dbd1d63c271820ee657e6945bfdc797ca0
+  revision: 6731889299afd73c162f011f5abb5d1699e1800a
   specs:
-    git-pr-release (0.8.0)
+    git-pr-release (0.9.0)
       colorize
       diff-lcs
       highline
