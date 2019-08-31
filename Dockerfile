@@ -9,7 +9,9 @@ LABEL "repository"="https://github.com/bakunyo/git-pr-release-action"
 LABEL "maintainer"="bakunyo <izuta.hiroyuki@gmail.com>"
 
 RUN apk add --no-cache git
-RUN gem install git-pr-release
+ADD Gemfile .
+ADD Gemfile.lock .
+RUN bundle install
 
 ADD entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
