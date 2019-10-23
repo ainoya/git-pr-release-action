@@ -8,7 +8,9 @@ LABEL "com.github.actions.color"="green"
 LABEL "repository"="https://github.com/bakunyo/git-pr-release-action"
 LABEL "maintainer"="bakunyo <izuta.hiroyuki@gmail.com>"
 
-RUN apk add --no-cache git
+RUN apk --update --no-cache add git tzdata && \
+    cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime && \
+    rm -rf /var/cache/apk/*
 ADD Gemfile .
 ADD Gemfile.lock .
 RUN bundle install
