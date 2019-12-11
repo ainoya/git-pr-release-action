@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/ainoya/git-pr-release
-  revision: 6731889299afd73c162f011f5abb5d1699e1800a
+  revision: 8e6b8594255bddc0e5c818bab7abf9ac25d4ddc4
   specs:
     git-pr-release (0.9.0)
       colorize
@@ -15,9 +15,9 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     colorize (0.8.1)
     diff-lcs (1.3)
-    faraday (0.15.4)
+    faraday (0.17.1)
       multipart-post (>= 1.2, < 3)
-    highline (2.0.2)
+    highline (2.0.3)
     multipart-post (2.1.1)
     octokit (4.14.0)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -33,4 +33,4 @@ DEPENDENCIES
   git-pr-release!
 
 BUNDLED WITH
-   1.16.3
+   1.17.2
