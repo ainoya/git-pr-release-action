@@ -19,7 +19,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     highline (2.0.3)
     multipart-post (2.1.1)
-    octokit (4.19.0)
+    octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     public_suffix (4.0.6)
@@ -35,4 +35,4 @@ DEPENDENCIES
   git-pr-release!
 
 BUNDLED WITH
-   1.17.2
+   2.1.4
