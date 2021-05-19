@@ -1,4 +1,4 @@
-FROM ruby:2.6.1-alpine3.9
+FROM ruby:2.7.3-alpine3.13
 
 LABEL "com.github.actions.name"="git-pr-release"
 LABEL "com.github.actions.description"="Run git-pr-release"
