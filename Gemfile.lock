@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/ainoya/git-pr-release
-  revision: 23ac7e6dd8d78f0b2571a49f8cd269494dd390e9
+  revision: 040fb89c9f2ffee0bdbea2ec3ac0f653381f7b7b
   specs:
-    git-pr-release (1.4.0)
+    git-pr-release (1.9.0)
       colorize
       diff-lcs
       highline
@@ -11,7 +11,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     colorize (0.8.1)
     diff-lcs (1.4.4)
