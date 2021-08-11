@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/ainoya/git-pr-release
-  revision: 040fb89c9f2ffee0bdbea2ec3ac0f653381f7b7b
+  revision: a0c28ef7dacc4f9148b3f88cb5b093ddab2cc868
   specs:
     git-pr-release (1.9.0)
       colorize
