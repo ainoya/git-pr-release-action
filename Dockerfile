@@ -1,4 +1,4 @@
-FROM ruby:3.0.0-alpine3.13
+FROM ruby:3.0.0-slim-buster
 
 RUN apk --update --no-cache upgrade && \
     apk --no-cache add git tzdata && \
